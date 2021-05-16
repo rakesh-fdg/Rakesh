@@ -1,0 +1,221 @@
+header
+{
+    width: 100%;
+    height: 100vh;
+    background:url('../images/cd1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    color:black;
+    font-size: 50px;
+    padding-left: 100px;
+}
+.logo span{
+    color:white;
+}
+.menu a{
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-weight: bold;
+}
+.menu{
+    margin-right: 100px;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a:hover{
+    background:#e74c3c;
+    transition: 0.4;
+
+}
+.text {
+    color: white;
+    margin-top:100px;
+    margin-left: 100px;
+    max-width: 450px;
+}
+.text h1{
+    font-size: 35px;
+    margin: 10px 0px;
+}
+.text p{
+    font-size: 20px;
+}
+.c-btn{
+    border: none;
+    outline: none;
+    background:none;
+    padding:10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#about{
+    padding: 100px 50px;
+    background: url(../images/md.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.section-info{
+    font-weight: bold;
+    text-align: center;
+}
+.section-info h1{
+    font-size: 60px;
+
+}
+.section-info p{
+    font-size: 25px;
+    color:orangered;
+}
+.about-row{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50px;
+    padding: 10%;
+
+}
+.about-left-col img{
+    width: 100%;
+    padding: 50px;
+}
+.about-right-col{
+    flex-basis: 50%;
+}
+#p-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-right-col p{
+    font-size: 20px;
+    text-align: justify;
+
+}
+.about-con{
+    flex-basis: 70px;
+    font-weight: bold;
+    text-align: justify;
+}
+.about-con span{
+    color:red;
+    width: 100px;
+}
+#skill{
+    padding: 100px 50px;
+    background:white;
+    background-size: cover;
+}
+.skill-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(45,52,54);
+    padding: 50px;
+    margin-bottom: 10%;
+}
+.skill-left-col{
+    flex-basis: 50%;
+    text-align: justify;
+
+}
+.skill-left-col{
+    font-size: 20px;
+}
+.skill-right-col{
+    flex-basis: 50%;
+}
+.progress{
+    width: 80%;
+    margin: auto;
+}
+.progress-div p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 80px;
+    text-align: justify;
+
+}
+#sevices{
+    padding: 100px 50px;
+}
+.services-row{
+    image-resolution: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services-box{
+    flex-basis: 25%;
+    text-align: center;
+    box-shadow: 2px 3px 5px grey;
+    padding: 20px;
+    margin-top: 20px;
+}
+.services-box img{
+    width: 60%;
+}
+.services-box:hover{
+    background:#e74c3c;
+    color:white;
+    transition: 0.4;
+}
+#contact{
+    padding: 100px 50px;
+    background:linen;
+}
+.contact-row{
+    image-resolution: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.contact-left-col{
+    flex-basis: 50%;
+}
+.contact-right-col{
+    flex-basis: 50%;
+}
+.contact-right-col form{
+    text-align: center;
+
+}
+.contact-right-col form h2{
+    margin-bottom:  20PX;
+}
+.contact-right-col form input{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+.contact-right-col form textarea{
+    width: 60%;
+    padding: 10px;
+}
+#footer{
+    background:white;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
